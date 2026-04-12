@@ -1,0 +1,61 @@
+CPU:
+
+Running Nx=200, Ny=100
+Step 0 completed, total kinetic energy: 9825.76
+Step 500 completed, total kinetic energy: 8200.49
+Step 1000 completed, total kinetic energy: 7855.53
+Step 1500 completed, total kinetic energy: 7734.74
+Runtime: 0.659777 seconds
+
+Running Nx=800, Ny=400
+Step 0 completed, total kinetic energy: 157424
+Step 500 completed, total kinetic energy: 152215
+Step 1000 completed, total kinetic energy: 148083
+Step 1500 completed, total kinetic energy: 144109
+Runtime: 10.5274 seconds
+
+Running Nx=1600, Ny=800
+Step 0 completed, total kinetic energy: 629818
+Step 500 completed, total kinetic energy: 619717
+Step 1000 completed, total kinetic energy: 611880
+Step 1500 completed, total kinetic energy: 604637
+Runtime: 60.4355 seconds
+
+Running Nx=3200, Ny=1600
+Step 0 completed, total kinetic energy: 2.51952e+06
+Step 500 completed, total kinetic energy: 2.49961e+06
+Step 1000 completed, total kinetic energy: 2.48361e+06
+Step 1500 completed, total kinetic energy: 2.46917e+06
+Runtime: 259.777 seconds
+
+GPU:
+
+Running Nx=200, Ny=100
+Step 0 completed, total kinetic energy: 9825.76
+Step 500 completed, total kinetic energy: 8200.49
+Step 1000 completed, total kinetic energy: 7855.53
+Step 1500 completed, total kinetic energy: 7734.74
+Runtime: 1.00342 seconds
+
+Running Nx=800, Ny=400
+Step 0 completed, total kinetic energy: 157424
+Step 500 completed, total kinetic energy: 152215
+Step 1000 completed, total kinetic energy: 148083
+Step 1500 completed, total kinetic energy: 144109
+Runtime: 15.9836 seconds
+
+Running Nx=1600, Ny=800
+Step 0 completed, total kinetic energy: 629818
+Step 500 completed, total kinetic energy: 619717
+Step 1000 completed, total kinetic energy: 611880
+Step 1500 completed, total kinetic energy: 604637
+Runtime: 69.5504 seconds
+
+Running Nx=3200, Ny=1600
+Step 0 completed, total kinetic energy: 2.51952e+06
+Step 500 completed, total kinetic energy: 2.49961e+06
+Step 1000 completed, total kinetic energy: 2.48361e+06
+Step 1500 completed, total kinetic energy: 2.46917e+06
+Runtime: 271.6 seconds
+
+Conlusion: I could not manage to overcome the limitations caused by memory bendwith and access patern for the gpu runs to be faster.
